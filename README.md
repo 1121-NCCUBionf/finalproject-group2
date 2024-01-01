@@ -28,6 +28,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 > Original Data - Fastq
   - GES99107 ([NCBI > GEO](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi))
   - Search SRA number ([ENA](https://www.ebi.ac.uk/ena/browser/home))
+  - Total size of the original dataset：233.9 GB
 
 | Sample ID |   SRA   |  Label   |  Fastq ID  |   File Size    |
 |----------------|----------|---------|-------------|---------------|
