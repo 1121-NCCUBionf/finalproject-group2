@@ -31,10 +31,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   - Imaris：3D images analysis
 
 > How about us? Which tools or packages we're gonna use?
-  - Fanc：Package of python, use ```python fanc auto``` to construct a Hi-C Map. And it also can plot the Hi-C plot.
+  - Fanc：Package of python, use ```fanc auto``` to construct a Hi-C Map. And it also can use ```fancplot``` to plot the Hi-C plot.
   - R：Analysis or plot in R studio.
 
-> Data Preprocessing - Fastq to Hic
+> Data Preprocessing - Fastq to Hi-C
 - Build the Environment - Docker
   - **Step1**：Build a DockerFile
 
@@ -84,7 +84,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
     ```
 
   - **Others**：Download dm6 for genome index
-    If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
+    - If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
 
 > Visualization
   Editing....
