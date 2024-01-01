@@ -5,7 +5,7 @@
 ## Members
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
-| 黃思穎 Sih-Ying, Huang | Data Science | 112753110 | Editing....                     |
+| 黃思穎 Sih-Ying, Huang | Data Science | 112753110 | Editing....            |
 | 陳品伃 Pin-Yu, Chen  |  Data Science | 112753204 |  Editing....            |
 
 ## Demo 
@@ -43,7 +43,17 @@
   docker start -i <container name or ID>
   ```
 
-- **Step5**：Start to run the shell script.
+> Create shell script and Run on Docker
+- **Step5**：Move the shell script and data to the path on Docker.
+
+  Make sure your container is keep running.
+  ```bash
+  docker cp <local path/file> <container name:/path on docker>
+  ```
+
+- **Step6**：Start to run the shell script
+
+  Move your current directory to the path where you store data and shell script, then run sh.
   ```shell
   sh <shell script file>.sh
   ```
