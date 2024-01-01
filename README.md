@@ -87,6 +87,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
     - If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
 
 > Visualization
+
   Editing....
 
 ### results
@@ -95,8 +96,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ## References
 ### Tools
-- Docker 20.10.24 (Image - Ubuntu:lastest)
+- Docker 20.10.24 (Environment - Ubuntu:lastest)
 - Python 3.10
+- R
 - Bowtie2
 
 ### Python Packages
@@ -104,3 +106,5 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 - biopython 1.75
 
 ### Related publications
+- [Genome reference - dm6](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/)
+- [Introduction of Hi-C](https://lxz9.com/2021/04/03/HiC/)
