@@ -30,7 +30,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * original packages in the paper
   * additional packages you found
 
-### Data Preprocessing - Fastq to Hic
+#### Data Preprocessing - Fastq to Hic
 > Build the Environment - Docker
 - **Step1**：Build a DockerFile
 
@@ -79,7 +79,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   sh <shell script file>.sh
   ```
 
-### Visualization
+#### Visualization
 Editing....
 
 ### results
