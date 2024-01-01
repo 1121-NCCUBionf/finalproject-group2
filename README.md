@@ -24,10 +24,30 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
   - Click to see [1121_bioinformatics_FP_group2.ppt](https://docs.google.com/presentation/d/1lAboWabTGbrfOJxy_10mEOOY4F6-cIGrbRc8mkmITrI/edit?usp=sharing)
 
-### data (do not upload fastq file)
-* Source
-* Format
-* Size
+### data
+> Original Data - Fastq
+  - GES99107 ([NCBI > GEO](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi))
+| Sample ID |   SRA   |  Label   |  Fastq ID  |   File Size    |
+|----------------|----------|---------|-------------|-----------|
+| GSM2633507 | SRX2837380 |  S2R+  | SRR5579177_1&2.fastq.gz | 24.5 GB  |
+| GSM2633508 | SRX2837381 |  S2R+  | SRR5579178_1&2.fastq.gz | 25.7 GB  |
+| GSM2633509 | SRX2837378 |  male  | SRR5579173_1&2.fastq.gz | 13.6 GB  |
+| GSM2633509 | SRX2837378 |  male  | SRR5579170_1&2.fastq.gz | 13.7 GB  |
+| GSM2633509 | SRX2837378 |  male  | SRR5579171_1&2.fastq.gz | 13.5 GB  |
+| GSM2633509 | SRX2837378 |  male  | SRR5579172_1&2.fastq.gz | 13.7 GB  |
+| GSM2633510 | SRX2837379 |  male  | SRR5579176_1&2.fastq.gz | 15.4 GB  |
+| GSM2633510 | SRX2837379 |  male  | SRR5579174_1&2.fastq.gz | 15.0 GB  |
+| GSM2633510 | SRX2837379 |  male  | SRR5579175_1&2.fastq.gz | 14.9 GB  |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579166_1&2.fastq.gz | 4.6 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579164_1&2.fastq.gz | 5.0 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579163_1&2.fastq.gz | 4.2 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579161.fastq.gz     | 8.2 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579165_1&2.fastq.gz | 4.9 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579162_1&2.fastq.gz | 4.4 GB   |
+| GSM2633511 | SRX2837376 |  ph    | SRR5579160_1&2.fastq.gz | 5.1 GB   |
+| GSM2633512 | SRX2837377 |  ph    | SRR5579167_1&2.fastq.gz | 16.8 GB  |
+| GSM2633512 | SRX2837377 |  ph    | SRR5579168_1&2.fastq.gz | 15.1 GB  |
+| GSM2633512 | SRX2837377 |  ph    | SRR5579169_1&2.fastq.gz | 15.6 GB  |
 
 ### code
 > Which tools or packages are using in this paper?
