@@ -5,8 +5,8 @@
 ## Members
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
-| 黃思穎 Sih-Ying, Huang | Data Science | 112753110 | Editing....            |
-| 陳品伃 Pin-Yu, Chen  |  Data Science | 112753204 |  Editing....            |
+| 黃思穎 Sih-Ying, Huang | Computer Science | 112753110 | Editing....            |
+| 陳品伃 Pin-Yu, Chen  |  Computer Science | 112753204 |  Editing....            |
 
 ## Demo 
 You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
@@ -26,9 +26,13 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Size
 
 ### code
-* Which packages do you use? 
-  * original packages in the paper
-  * additional packages you found
+#### Which tools or packages are using in this paper?
+- Hi-C Pro：To do Hi-C data processing and TAD identification
+- Imaris：3D images analysis
+
+#### How about us? Which tools or packages we're gonna use?
+- Fanc：Package of python, use ```python fanc auto``` to construct a Hi-C Map. And it also can plot the Hi-C plot.
+- R：Analysis or plot in R studio.
 
 #### Data Preprocessing - Fastq to Hic
 > Build the Environment - Docker
