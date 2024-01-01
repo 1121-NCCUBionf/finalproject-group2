@@ -17,6 +17,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ## Folder organization and its related information
 ### docs
 > Our presentation
+
   [1121_bioinformatics_FP_group2.ppt](https://docs.google.com/presentation/d/1lAboWabTGbrfOJxy_10mEOOY4F6-cIGrbRc8mkmITrI/edit?usp=sharing).
 
 ### data (do not upload fastq file)
