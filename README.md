@@ -11,23 +11,23 @@
 ### Demo 
 #### Data Preprocessing - Fatsq to Hic
 > Build the Environment - Docker
-- Step1：Build a DockerFile
+- **Step1**：Build a DockerFile
 Build a DockerFile with environment, tools, packages that you need to use.
 
-- Step2：Pull the Docker Image
+- **Step2**：Pull the Docker Image
 Pull the images which you write in your DockerFile.
+  - -t：Tag/Name of the images you pull.
 ```bash
 docker build -t <image name>
 ```
--t：Tag/Name of the images you pull.
 
-- Step3：Create a Volume
+- **Step3**：Create a Volume
 Create a volume to store your data on Docker.
 ```bash
 docker volume create <volume name>
 ```
 
-- Step4：Run the Container
+- **Step4**：Run the Container
 Data on Docker will be saved under the path "/data".
 ```bash
 docker run --name <container name> -v <volume name>:/data -it <image name>
@@ -38,7 +38,7 @@ If you already had a container, you can use this command to run it.
 docker start -i <container name or ID>
 ```
 
-- Step5：Start to run the shell script.
+- **Step5**：Start to run the shell script.
 ```shell
 sh <shell script file>.sh
 ```
