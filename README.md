@@ -12,10 +12,12 @@
 ### Data Preprocessing - Fatsq to Hic
 > Build the Environment - Docker
 - **Step1**：Build a DockerFile
+
 Build a DockerFile with environment, tools, packages that you need to use.
-  - We use ubuntu:latest to build the environment
+  - We use **ubuntu:latest** to build the environment
 
 - **Step2**：Pull the Docker Image
+
 Pull the images which you write in your DockerFile.
   - -t：Tag/Name of the images you pull.
 ```bash
@@ -23,18 +25,20 @@ docker build -t <image name>
 ```
 
 - **Step3**：Create a Volume
+
 Create a volume to store your data on Docker.
 ```bash
 docker volume create <volume name>
 ```
 
 - **Step4**：Run the Container
+
 Data on Docker will be saved under the path "/data".
 ```bash
 docker run --name <container name> -v <volume name>:/data -it <image name>
 ```
 
-  - If you already had a container, you can use this command to run it.
+    - If you already had a container, you can use this command to run it.
 ```bash
 docker start -i <container name or ID>
 ```
