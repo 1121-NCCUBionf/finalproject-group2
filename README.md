@@ -27,6 +27,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### data
 > Original Data - Fastq
   - GES99107 ([NCBI > GEO](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi))
+  - Search SRA number ([ENA](https://www.ebi.ac.uk/ena/browser/home))
 
 | Sample ID |   SRA   |  Label   |  Fastq ID  |   File Size    |
 |----------------|----------|---------|-------------|---------------|
@@ -49,6 +50,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 | GSM2633512 | SRX2837377 |  ph    | SRR5579167_1&2.fastq.gz | 16.8 GB  |
 | GSM2633512 | SRX2837377 |  ph    | SRR5579168_1&2.fastq.gz | 15.1 GB  |
 | GSM2633512 | SRX2837377 |  ph    | SRR5579169_1&2.fastq.gz | 15.6 GB  |
+
+> Data After Processing
+
+  Editing....
 
 ### code
 > Which tools or packages are using in this paper?
