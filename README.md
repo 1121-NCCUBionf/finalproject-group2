@@ -1,15 +1,15 @@
 # TADs are 3D structural units of higher-order chromosome organization in Drosophila
-### Intoduction
+## Intoduction
 
 
-### Members
+## Members
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
 | 黃思穎 Sih-Ying, Huang | Data Science | 112753110 | Editing....                     |
 | 陳品伃 Pin-Yu, Chen  |  Data Science | 112753204 |  Editing....            |
 
-### Demo 
-#### Data Preprocessing - Fatsq to Hic
+## Demo 
+### Data Preprocessing - Fatsq to Hic
 > Build the Environment - Docker
 - **Step1**：Build a DockerFile
 Build a DockerFile with environment, tools, packages that you need to use.
@@ -33,7 +33,7 @@ Data on Docker will be saved under the path "/data".
 docker run --name <container name> -v <volume name>:/data -it <image name>
 ```
 
-If you already had a container, you can use this command to run it.
+  - If you already had a container, you can use this command to run it.
 ```bash
 docker start -i <container name or ID>
 ```
@@ -43,7 +43,7 @@ docker start -i <container name or ID>
 sh <shell script file>.sh
 ```
 
-#### Visualization
+### Visualization
 You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
