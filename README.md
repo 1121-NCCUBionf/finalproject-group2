@@ -3,13 +3,13 @@
 
 This study utilized Hi-C technology and various advanced tools, including single-cell Hi-C, 3D fluorescent in situ hybridization (FISH), and super-resolution microscopy, to reveal the higher-order chromatin organization. The researchers discovered the significant role of TADs (topologically associating domains) in chromatin folding and confirmed their existence and physical segregation in chromatin through the analysis of FISH data and 3D imaging.
 
-- In this final project, we only reproduce the part of Hi-C analysis.
+In this final project, we only reproduce the part of Hi-C analysis.
 
 
 ## Members
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
-| 黃思穎 Sih-Ying, Huang | Computer Science | 112753110 | Editing....            |
+| 黃思穎 Sih-Ying, Huang | Computer Science | 112753110 | - Collecting Data - PPT|
 | 陳品伃 Pin-Yu, Chen  |  Computer Science | 112753204 |  Editing....            |
 
 ## Demo 
