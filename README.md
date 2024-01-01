@@ -1,7 +1,9 @@
-# Title of your paper
+# TADs are 3D structural units of higher-order chromosome organization in Drosophila
 ### Members
-* 黃思穎, student ID1
-* 陳品伃, student ID2
+|Name  | Department   | StudentID     | Cooperation                     |
+|----------------|----------|-----------|--------------------------------|
+| 黃思穎 Sih-Ying, Huang | Data Science | 112753110 | Editing....                     |
+| 陳品伃 Pin-Yu, Chen  |  Data Science | 112753204 |  Editing....            |
 
 ### Demo 
 You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
