@@ -13,6 +13,7 @@
 > Build the Environment - Docker
 - **Step1**：Build a DockerFile
 Build a DockerFile with environment, tools, packages that you need to use.
+  - We use ubuntu:latest to build the environment
 
 - **Step2**：Pull the Docker Image
 Pull the images which you write in your DockerFile.
