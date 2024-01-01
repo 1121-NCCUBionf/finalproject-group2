@@ -10,7 +10,7 @@ In this final project, we only reproduce the part of Hi-C analysis.
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
 | 黃思穎 Sih-Ying, Huang | Computer Science | 112753110 | Collecting Data, Introduction of paper, Visualization, PPT, Presentation|
-| 陳品伃 Pin-Yu, Chen  |  Computer Science | 112753204 |  Collecting Data, Part of Fastq to HiC, PPT, Presentation |
+| 陳品伃 Pin-Yu, Chen  |  Computer Science | 112753204 |  Collecting Data, Part of Fastq to HiC, Edit Readme, PPT, Presentation |
 
 ## Demo 
 You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
