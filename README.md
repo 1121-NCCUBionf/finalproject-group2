@@ -1,4 +1,7 @@
 # TADs are 3D structural units of higher-order chromosome organization in Drosophila
+### Intoduction
+
+
 ### Members
 |Name  | Department   | StudentID     | Cooperation                     |
 |----------------|----------|-----------|--------------------------------|
@@ -12,8 +15,6 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ```
 
 ## Folder organization and its related information
-idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
-
 ### docs
 * Your presentation, 1121_bioinformatics_FP_groupID.ppt/pptx/pdf (i.e.,1121_bioinformatics_FP_group1.ppt), by **01.04**
 * Any related document for the project
@@ -35,5 +36,13 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 * Any improvement or change in your package?
 
 ## References
-* Packages you use
-* Related publications
+#### Tools
+- Docker 20.10.24
+- Python 3.10
+- Bowtie2
+
+### Python Packages
+- fanc 0.9.27
+- biopython 1.75
+
+### Related publications
