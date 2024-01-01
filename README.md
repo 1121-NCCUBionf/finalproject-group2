@@ -36,8 +36,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Any improvement or change in your package?
 
 ## References
-#### Tools
-- Docker 20.10.24
+### Tools
+- Docker 20.10.24 (Image - Ubuntu:lastest)
 - Python 3.10
 - Bowtie2
 
