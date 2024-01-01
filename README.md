@@ -9,6 +9,41 @@
 | 陳品伃 Pin-Yu, Chen  |  Data Science | 112753204 |  Editing....            |
 
 ### Demo 
+#### Data Preprocessing - Fatsq to Hic
+> Build the Environment - Docker
+- Step1：Build a DockerFile
+Build a DockerFile with environment, tools, packages that you need to use.
+
+- Step2：Pull the Docker Image
+Pull the images which you write in your DockerFile.
+```bash
+docker build -t <image name>
+```
+-t：Tag/Name of the images you pull.
+
+- Step3：Create a Volume
+Create a volume to store your data on Docker.
+```bash
+docker volume create <volume name>
+```
+
+- Step4：Run the Container
+Data on Docker will be saved under the path "/data".
+```bash
+docker run --name <container name> -v <volume name>:/data -it <image name>
+```
+
+If you already had a container, you can use this command to run it.
+```bash
+docker start -i <container name or ID>
+```
+
+- Step5：Start to run the shell script.
+```shell
+sh <shell script file>.sh
+```
+
+#### Visualization
 You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
