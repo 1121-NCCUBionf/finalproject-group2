@@ -83,8 +83,11 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
     sh <shell script file>.sh
     ```
 
-#### Visualization
-Editing....
+  - **Others**：Download dm6 for genome index
+    If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
+
+> Visualization
+  Editing....
 
 ### results
 * Which part of the paper do you reproduce?
