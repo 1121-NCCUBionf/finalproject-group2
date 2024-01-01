@@ -26,62 +26,62 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Size
 
 ### code
-#### Which tools or packages are using in this paper?
-- Hi-C Pro：To do Hi-C data processing and TAD identification
-- Imaris：3D images analysis
+> Which tools or packages are using in this paper?
+  - Hi-C Pro：To do Hi-C data processing and TAD identification
+  - Imaris：3D images analysis
 
-#### How about us? Which tools or packages we're gonna use?
-- Fanc：Package of python, use ```python fanc auto``` to construct a Hi-C Map. And it also can plot the Hi-C plot.
-- R：Analysis or plot in R studio.
+> How about us? Which tools or packages we're gonna use?
+  - Fanc：Package of python, use ```python fanc auto``` to construct a Hi-C Map. And it also can plot the Hi-C plot.
+  - R：Analysis or plot in R studio.
 
-#### Data Preprocessing - Fastq to Hic
-> Build the Environment - Docker
-- **Step1**：Build a DockerFile
+> Data Preprocessing - Fastq to Hic
+- Build the Environment - Docker
+  - **Step1**：Build a DockerFile
 
-  Build a DockerFile with environment, tools, packages that you need to use.
-    - We use **ubuntu:latest** to build the environment
+    Build a DockerFile with environment, tools, packages that you need to use.
+      - We use **ubuntu:latest** to build the environment
 
-- **Step2**：Pull the Docker Image
+  - **Step2**：Pull the Docker Image
 
-  Pull the images which you write in your DockerFile.
-  - -t：Tag/Name of the images you pull.
-  ```bash
-  docker build -t <image name>
-  ```
+    Pull the images which you write in your DockerFile.
+    - -t：Tag/Name of the images you pull.
+    ```bash
+    docker build -t <image name>
+    ```
+  
+  - **Step3**：Create a Volume
+  
+    Create a volume to store your data on Docker.
+    ```bash
+    docker volume create <volume name>
+    ```
+  
+  - **Step4**：Run the Container
 
-- **Step3**：Create a Volume
+    Data on Docker will be saved under the path "/data".
+    ```bash
+    docker run --name <container name> -v <volume name>:/data -it <image name>
+    ```
+  
+      - If you already had a container, you can use this command to run it.
+    ```bash
+    docker start -i <container name or ID>
+    ```
+  
+  > Create shell script and Run on Docker
+  - **Step5**：Move the shell script and data to the path on Docker.
+  
+    Make sure your container is keep running.
+    ```bash
+    docker cp <local path/file> <container name:/path on docker>
+    ```
 
-  Create a volume to store your data on Docker.
-  ```bash
-  docker volume create <volume name>
-  ```
-
-- **Step4**：Run the Container
-
-  Data on Docker will be saved under the path "/data".
-  ```bash
-  docker run --name <container name> -v <volume name>:/data -it <image name>
-  ```
-
-    - If you already had a container, you can use this command to run it.
-  ```bash
-  docker start -i <container name or ID>
-  ```
-
-> Create shell script and Run on Docker
-- **Step5**：Move the shell script and data to the path on Docker.
-
-  Make sure your container is keep running.
-  ```bash
-  docker cp <local path/file> <container name:/path on docker>
-  ```
-
-- **Step6**：Start to run the shell script
-
-  Move your current directory to the path where you store data and shell script, then run sh.
-  ```shell
-  sh <shell script file>.sh
-  ```
+  - **Step6**：Start to run the shell script
+  
+    Move your current directory to the path where you store data and shell script, then run sh.
+    ```shell
+    sh <shell script file>.sh
+    ```
 
 #### Visualization
 Editing....
