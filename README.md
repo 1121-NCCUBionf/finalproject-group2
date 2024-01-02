@@ -56,6 +56,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
   - **Process pipeline**：fastq -> bam -> pair -> Hi-C
   - Data that we have processed：
+
 | Fastq ID | Original Fastq Size |   BAM Size  |  Pair Size   |  HiC Size   |
 |----------------|----------|----------|---------------|---------------|
 | SRR5579178 |  25.7 GB  | 26.7 GB | still running |  still running |
@@ -82,8 +83,14 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
     Pull the images which you write in your DockerFile.
     - -t：Tag/Name of the images you pull.
+      - This is for MacOS, Linux or Ubuntu. 
     ```bash
     docker build -t <image name>
+    ```
+
+      - This is for Windows. 
+    ```bash
+    docker image build <DockerFile Path> -t <image name>
     ```
   
   - **Step3**：Create a Volume
