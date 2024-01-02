@@ -88,14 +88,12 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
     Pull the images which you write in your DockerFile.
     - -t：Tag/Name of the images you pull.
-    **MacOS, Linux or Ubuntu**
+    **For MacOS, Linux or Ubuntu**
     ```bash
     docker build -t <image name>
     ```
 
-    ```diff
-    + Windows
-    ```
+    **For Windows**
     ```bash
     docker image build <DockerFile Path> -t <image name>
     ```
@@ -146,6 +144,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### results
 * Which part of the paper do you reproduce?
 * Any improvement or change in your package?
+```diff
+- Editing...
+```
 
 ## References
 ### Tools
