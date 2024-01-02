@@ -17,6 +17,9 @@ You might provide an example command or a few commands to reproduce your analysi
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
 ```
+```diff
+- Editing...
+```
 
 ## Folder organization and its related information
 ### docs
@@ -61,7 +64,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 |----------------|----------|----------|---------------|---------------|
 | SRR5579178 |  25.7 GB  | 26.7 GB | still running |  still running |
     
-  Editing....
+```diff
+- Editing...
+```
 
 ### code
 > Which tools or packages are using in this paper?
@@ -83,12 +88,14 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
     Pull the images which you write in your DockerFile.
     - -t：Tag/Name of the images you pull.
-      - This is for MacOS, Linux or Ubuntu. 
+    **MacOS, Linux or Ubuntu**
     ```bash
     docker build -t <image name>
     ```
 
-      - This is for Windows. 
+    ```diff
+    + Windows
+    ```
     ```bash
     docker image build <DockerFile Path> -t <image name>
     ```
@@ -132,7 +139,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 > Visualization
 
-  Editing....
+  ```diff
+  - Editing...
+  ```
 
 ### results
 * Which part of the paper do you reproduce?
