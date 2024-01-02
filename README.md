@@ -54,6 +54,12 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 > Data After Processing
 
+  - **Process pipeline**：fastq -> bam -> pair -> Hi-C
+  - Data that we have processed：
+| Fastq ID | Original Fastq Size |   BAM Size  |  Pair Size   |  HiC Size   |
+|----------------|----------|----------|---------------|---------------|
+| SRR5579178 |  25.7 GB  | 26.7 GB | still running |  still running |
+    
   Editing....
 
 ### code
