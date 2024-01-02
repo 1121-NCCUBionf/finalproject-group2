@@ -82,12 +82,13 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   - **Step1**：Build a DockerFile
 
     Build a DockerFile with environment, tools, packages that you need to use.
-      - We use **ubuntu:latest** to build the environment
+      - We use ```ubuntu:latest``` to build the environment
 
   - **Step2**：Pull the Docker Image
 
     Pull the images which you write in your DockerFile.
-    - -t：Tag/Name of the images you pull.
+    - ```-t```：Tag/Name of the images you pull.
+    
     **For MacOS, Linux or Ubuntu**
     ```bash
     docker build -t <image name>
