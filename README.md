@@ -26,6 +26,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 > Our presentation
 
   - Click to see [1121_bioinformatics_FP_group2.ppt](https://docs.google.com/presentation/d/1lAboWabTGbrfOJxy_10mEOOY4F6-cIGrbRc8mkmITrI/edit?usp=sharing)
+![image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/docs/ReadMePic/PPT_head.png)
 
 ### data
 > Original Data - Fastq
