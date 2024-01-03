@@ -62,11 +62,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 | Fastq ID | Original Fastq Size |   BAM Size  |  Pair Size   |  HiC Size   |
 |----------------|----------|----------|---------------|---------------|
-| SRR5579178 |  25.7 GB  | 26.7 GB | still running |  still running |
-    
-```diff
-- Editing...
-```
+| SRR5579178 |  25.7 GB  | 26.7 GB | 3.6 GB |  130MB |
+
 
 ### code
 > Which tools or packages are using in this paper?
@@ -74,7 +71,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   - Imaris：3D images analysis
 
 > How about us? Which tools or packages we're gonna use?
-  - Fanc：Package of python, use ```fanc auto``` to construct a Hi-C Map. And it also can use ```fancplot``` to plot the Hi-C plot.
+  - Python：Use ```fanc auto``` to construct a Hi-C Map, and it also can use ```fancplot``` to plot the Hi-C plot.
   - R：Analysis or plot in R studio.
 
 > Data Preprocessing - Fastq to Hi-C
