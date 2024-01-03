@@ -54,6 +54,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 | GSM2633512 | SRX2837377 |  ph    | SRR5579167_1&2.fastq.gz | 16.8 GB  |
 | GSM2633512 | SRX2837377 |  ph    | SRR5579168_1&2.fastq.gz | 15.1 GB  |
 | GSM2633512 | SRX2837377 |  ph    | SRR5579169_1&2.fastq.gz | 15.6 GB  |
+| GSE99104   |            |        | GSE99104_nm_none_10000.bins.txt.gz | 93 KB  |
+| GSE99104   |            |        | GSE99104_nm_none_10000.n_contact.txt.gz | 117,494 KB  |
 
 > Data After Processing
 
