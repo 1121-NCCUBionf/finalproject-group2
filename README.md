@@ -76,12 +76,13 @@ python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region
 
 ### code
 > Which tools or packages are using in this paper?
-  - Hi-C Pro：To do Hi-C data processing and TAD identification
-  - Imaris：3D images analysis
+  - **Hi-C Pro**：To do Hi-C data processing and TAD identification
+  - **Imaris**：3D images analysis
 
 > How about us? Which tools or packages we're gonna use?
-  - Python：Use ```fanc auto``` to construct a Hi-C Map, and it also can use ```fancplot``` to plot the Hi-C plot.
-  - R：Analysis or plot in R studio.
+  - **Docker**：To build the environment.
+  - **Python**：Use ```fanc auto``` to construct a Hi-C Map, and it also can use ```fancplot``` to plot the Hi-C plot.
+  - **R**：Analysis or plot in R studio.
 
 > Data Preprocessing - Fastq to Hi-C
 - Build the Environment - Docker
