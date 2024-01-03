@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-COPY ./run_fanc_example.sh .
+COPY ./run_fanc.sh .
 
 RUN apt-get update && apt-get install -y \
     python3.10 \
