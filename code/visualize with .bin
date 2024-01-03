@@ -1,0 +1,28 @@
+# install gplots package ang load 
+install.packages("gplots") 
+library(gplots) 
+
+# File path&name 
+setwd("C:/Users/USER/Downloads")   
+file_path <- "GSE99104_nm_none_10000.bins.txt.gz" 
+
+# read data 
+data <- read.table(file_path, header = TRUE) 
+
+# visualize 
+hist(data$count,  
+    main = "Distribution of Counts in Each Interval",  
+    xlab = "Count",  
+    col = "skyblue",  
+    border = "black") 
+
+# plot the cumulative distribution function(CDF) 
+plot(ecdf(data$count),  
+    col = "red",  
+    main = "Empirical Cumulative Distribution Function (ECDF)",  
+    xlab = "Count",  
+    ylab = "Cumulative Probability",  
+    verticals = TRUE,  
+    pch = 16,  
+    cex = 0.6,  
+    add = TRUE) 
