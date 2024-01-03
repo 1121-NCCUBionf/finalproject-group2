@@ -17,12 +17,12 @@ In this final project, we only reproduce the part of Hi-C analysis.
 Because we cannot install fanc module sucessfully on local, so we put our code on Colab. You can try [here](https://colab.research.google.com/drive/1nxAKgKjjjerWJtytFZvt5VTBZaupp_Ev?usp=sharing).
 
 - We still create a python file that you can dowload and try it.
-```python
+```bash
 python plotHiC.py --hic_file_path your_file --name chr_name --region_start start_num --region_end end_num
 ```
 
 - Example：
-```python
+```bash
 python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region_start 10000kb --region_end 12500kb
 ```
 
