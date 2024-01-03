@@ -133,9 +133,23 @@ Because we cannot install fanc module sucessfully on local, so we put our code o
     - If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
 
 > Visualization
+  - First, you need to install the packages. ```fanc``` with version ```0.9.27``` and ```biopython``` with version 1.75.
+  ```python
+  pip install fanc==0.9.27
+  pip uninstall -y biopython
+  pip install biopython==1.75
+  ```
 
-  ```diff
-  - Editing...
+  - Then you can plot the diagram with ```fancplot```. Here we choose the type square matrix and range between 10000kb to 12500kb.
+  ```python
+  import fanc
+  import fanc.plotting as fancplot
+  import matplotlib.pyplot as plt
+  
+  hic_file = '/content/drive/Shareddrives/Bio Final Project/SRR5579178_10kb.hic'
+  fc = fancplot.SquareMatrixPlot(hic_file, flip=True, vmax=0.05)
+  fc.plot('chr2L:10000kb-12500kb')
+  fc.show()
   ```
 
 ### results
