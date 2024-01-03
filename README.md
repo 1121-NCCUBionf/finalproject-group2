@@ -16,6 +16,16 @@ In this final project, we only reproduce the part of Hi-C analysis.
 
 Because we cannot install fanc module sucessfully on local, so we put our code on Colab. You can try [here](https://colab.research.google.com/drive/1nxAKgKjjjerWJtytFZvt5VTBZaupp_Ev?usp=sharing).
 
+- We still create a python file that you can dowload and try it.
+```python
+python plotHiC.py --hic_file_path your_file --name chr_name --region_start start_num --region_end end_num
+```
+
+- Example：
+```python
+python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region_start 10000kb --region_end 12500kb
+```
+
 ## Folder organization and its related information
 ### docs
 > Our presentation
@@ -157,7 +167,7 @@ Because we cannot install fanc module sucessfully on local, so we put our code o
   
   We reproduce the part of result - Chromatin is organized in a series of discrete 3D nanocompartments. But we only used one of the dataset(SRR5579178).
   
-  - This is our result:
+  - **This is our result:**
       
   ![result_image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/results/SRR5579178_HiCplot.png)
   
