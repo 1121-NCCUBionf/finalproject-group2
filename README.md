@@ -156,14 +156,15 @@ Because we cannot install fanc module sucessfully on local, so we put our code o
 > Which part of the paper do you reproduce?
   
   We reproduce the part of result - Chromatin is organized in a series of discrete 3D nanocompartments. But we only used one of the dataset(SRR5579178).
+  
     - This is our result:
       
-      ![image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/results/SRR5579178_HiCplot.png)
+    ![image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/results/SRR5579178_HiCplot.png)
   
 > Any improvement or change in your package?
   - Try another tool to transfer fastq to HiC, e.g. Hi-C Pro.
   - Use another visulization tools, e.g. R-HiCExplorer, Jucier.
-  - Maybe change a computer with higher performence (?) xD
+  - Maybe change a computer with higher performence (?)
 
 ## References
 ### Tools
