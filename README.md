@@ -23,7 +23,7 @@ python plotHiC.py --hic_file_path your_file --name chr_name --region_start start
 
 - Example：
 ```bash
-python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region_start 10000kb --region_end 12500kb
+python plotHiC.py --hic_file_path "./bioproject/SR5579178.hic" --name chr2L --region_start 10000kb --region_end 12500kb
 ```
 
 ## Folder organization and its related information
@@ -144,7 +144,7 @@ python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region
     - If you want to use fanc auto to transform fastq to Hi-C, you need to dowload the dm6.fa.gz on this [website](https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/).
 
 > Visualization
-  - First, you need to install the packages. ```fanc``` with version ```0.9.27``` and ```biopython``` with version 1.75.
+  - First, you need to install the packages. ```fanc``` with version ```0.9.27``` and ```biopython``` with version ```1.75```.
     ```python
     pip install fanc==0.9.27
     pip uninstall -y biopython
