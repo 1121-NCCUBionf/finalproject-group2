@@ -134,26 +134,30 @@ Because we cannot install fanc module sucessfully on local, so we put our code o
 
 > Visualization
   - First, you need to install the packages. ```fanc``` with version ```0.9.27``` and ```biopython``` with version 1.75.
-  ```python
-  pip install fanc==0.9.27
-  pip uninstall -y biopython
-  pip install biopython==1.75
-  ```
+    ```python
+    pip install fanc==0.9.27
+    pip uninstall -y biopython
+    pip install biopython==1.75
+    ```
 
   - Then you can plot the diagram with ```fancplot```. Here we choose the type square matrix and range between 10000kb to 12500kb.
-  ```python
-  import fanc
-  import fanc.plotting as fancplot
-  import matplotlib.pyplot as plt
-  
-  hic_file = '/content/drive/Shareddrives/Bio Final Project/SRR5579178_10kb.hic'
-  fc = fancplot.SquareMatrixPlot(hic_file, flip=True, vmax=0.05)
-  fc.plot('chr2L:10000kb-12500kb')
-  fc.show()
-  ```
+    ```python
+    import fanc
+    import fanc.plotting as fancplot
+    import matplotlib.pyplot as plt
+    
+    hic_file = '/content/drive/Shareddrives/Bio Final Project/SRR5579178_10kb.hic'
+    fc = fancplot.SquareMatrixPlot(hic_file, flip=True, vmax=0.05)
+    fc.plot('chr2L:10000kb-12500kb')
+    fc.show()
+    ```
 
 ### results
-* Which part of the paper do you reproduce?
+- Which part of the paper do you reproduce?
+  We reproduce the part of result - Chromatin is organized in a series of discrete 3D nanocompartments. But we only used one of the dataset(SRR5579178).
+    - This is our result:
+      ![image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/results/SRR5579178_HiCplot.png)
+  
 * Any improvement or change in your package?
 ```diff
 - Editing...
