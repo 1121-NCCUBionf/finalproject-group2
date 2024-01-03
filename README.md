@@ -13,19 +13,15 @@ In this final project, we only reproduce the part of Hi-C analysis.
 | 陳品伃 Pin-Yu, Chen  |  Computer Science | 112753204 |  Collecting Data, Part of Fastq to HiC, Edit Readme, PPT, Presentation |
 
 ## Demo 
-You might provide an example command or a few commands to reproduce your analysis, i.e., the following R script
-```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
-```diff
-- Editing...
-```
+
+Because we cannot install fanc module sucessfully on local, so we put our code on Colab. You can try [here](https://colab.research.google.com/drive/1nxAKgKjjjerWJtytFZvt5VTBZaupp_Ev?usp=sharing).
 
 ## Folder organization and its related information
 ### docs
 > Our presentation
 
   - Click to see [1121_bioinformatics_FP_group2.ppt](https://docs.google.com/presentation/d/1lAboWabTGbrfOJxy_10mEOOY4F6-cIGrbRc8mkmITrI/edit?usp=sharing)
+
 ![image](https://github.com/1121-NCCUBionf/finalproject-group2/blob/main/docs/ReadMePic/PPT_head.png)
 
 ### data
