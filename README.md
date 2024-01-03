@@ -174,8 +174,9 @@ python plotHiC.py --hic_file_path "User/who/SR5579178.hic" --name chr2L --region
   
 > Any improvement or change in your package?
   - Try another tool to transfer fastq to HiC, e.g. Hi-C Pro.
-  - Use another visulization tools, e.g. R-HiCExplorer, Jucier.
-  - Maybe change a computer with higher performence (?)
+  - Use another visualization tools, e.g. R-HiC Explorer, Juicer.
+  - Maybe change a computer with higher performance (?)
+
 
 ## References
 ### Tools
